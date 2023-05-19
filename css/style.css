@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Inria Sans", sans-serif;
+}
+header {
+  background-color: #EEC9C8;
+  font-family: "Inria serif", serif;
+  font-size: 15px;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: #515151;;
+}
+header li {
+  display: inline-block;
+  padding: 0px 3px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.myWork h1{
+  font-family: 'Inria Serif', serif;
+  color: #706C61;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-family: 'Inria Sans', sans-serif;
+}
+.myWork button {
+  padding: 15px;
+  background-color: #706C61;
+  font-family: 'Inria Sans', sans-serif;
+  color: white;
+  font-size: 14px;
+  border-color: #706C61;
+  border-radius: 12px;
+}
+button {
+  padding: 16px;
+  background-color: #EEC9C8;
+  font-family: 'Inria Sans', sans-serif;
+  color: #515151;
+  font-size: 14px;
+  border-color:#EEC9C8;
+  border-radius: 12px;
+}
+footer {
+  background-color: #373738;
+  padding: 30px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 30px 30px;
+  background-color: #515151;
+  color:#FBFAFA;
+}
+.flexContainer div {
+  width: 50%;
+  padding: 75px;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #FBFAFA;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}

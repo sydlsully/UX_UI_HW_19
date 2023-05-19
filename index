@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inria+Serif&family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Module 19</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png">
+      <ul>
+        <li>about.</li>
+        <li>resume.</li>
+        <li>work.</li>
+        <li>contact.</li>
+      </ul>
+    </header>
+    <section class="heroImg">
+      <div class="content">
+        <img src="images/placeholder_picture.png">
+        <h1><strong>SYDNEY SULLIVAN.</strong></h1>
+        <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua.</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <section class="flexContainer">
+      <div>
+        <h1>about me.</h1>
+        <img src="images/placeholderSkill.png">
+        <h3>User Research</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+      <button>LEARN MORE</button>
+      </div>
+      <div>
+        <h1>my skills.</h1>
+        <img src="images/placeholderSkill.png">
+        <h3>User Interface Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
+      <button>LEARN MORE</button>
+      </div>
+    </section>
+    <section class ="myPortfolio">
+<head>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #FBFAFA;
+  border: solid 1px #515151;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div class = "myWork2">
+  <div id="flip"><h1>my work.</h1></div>
+<div id="panel"><h3>nsa redesign.</h3>
+<p><img src="images/placeholderSkill.png"></p>
+<p>PLACEHOLDER TEXT</p>
+<button>LEARN MORE</button>
+<h3>barkus.</h3>
+<p><img src="images/placeholderSkill.png"></p>
+<p>PLACEHOLDER TEXT</p>
+<button>LEARN MORE</button></div>
+</div>
+
+</body>
+    </section>
+    
+    <footer>
+      <ul>
+        <li>sydlsully@gmail.com</li>
+        <li>linkedin.</li>
+        <li>github.</li>
+        <li>twitter.</li>
+        <li>instagram.</li>
+        <li>facebook.</li>
+      </ul>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideDown("slow");
+    });
+  });
+  </script>
+</html>
